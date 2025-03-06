@@ -19,7 +19,7 @@ const SwiperRoom = () => {
   ];
   
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-900 box-border w-screen overflow-hidden">
+    <div className="flex justify-center items-center h-screen  box-border w-screen overflow-hidden">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

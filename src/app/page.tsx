@@ -14,33 +14,17 @@ import SwiperComponent from './components/SwiperTools/page'
 
 export default function Home() {
   return (
-    <div className='overflow-x-auto'>
+    <div className='overflow-x-auto bg-white'>
     
     <Navbar />
     <HeroSection />
+    <CardConsole />
     <Swiper3D />
     
-    <div className="w-full py-6 text-center text-white text-3xl  bg-transparent">
-      <BlurText
-        text="Explore Our Game Genres"
-        delay={150}
-        animateBy="words"
-        direction="top"      
-        className="text-2xl md:text-4xl font-bold text-orange-500 justify-center uppercase leading-tight"
-        />
-        <SplitText
-        text="Start your gaming journey today"
-        className="text-white text-lg mt-4"
-        delay={50}
-        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-        easing="easeOutCubic"
-        threshold={0.2}
-        rootMargin="-50px"
-        />
-      </div>
-      
+    
+    
    <SwiperRoom />
+   
    {/* <ReservationForm /> */}
    <FoodMenu />
    <div style={{ height: '600px', position: 'relative' }}>
@@ -79,11 +63,11 @@ export default function Home() {
     </div>
     
     <div className="">
-      <div className="flex flex-wrap justify-between sm:justify-between  container mx-10% ">
+      <div className=" ">
         
-          <CardConsole />
-          <CardConsole />
-          <CardConsole />
+          {/* <CardConsole /> */}
+          {/* <CardConsole /> */}
+          
         
       </div>
     </div>

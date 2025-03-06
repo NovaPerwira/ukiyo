@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar/page'
 import BlurText from '../components/BlurText/page'
 import SplitText from '../components/SplitText/page'
 import ProductSlider from '../components/ProductSlider/page'
+import SwiperRoom from '../components/SwiperRoom/page'
 
 export default function Games () {
   const handleAnimationComplete = () => {
@@ -47,6 +48,7 @@ export default function Games () {
         </div>
       
         <ProductSlider />
+        <SwiperRoom />
     </>
   )
 }

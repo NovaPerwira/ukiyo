@@ -28,9 +28,9 @@ const Swiper3D = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-900">
+    <div className="flex flex-col items-center min-h-screen ">
       {/* Header */}
-      <div className="w-full py-6 text-center text-white text-3xl  bg-transparent">
+      <div className="w-full py-6 text-center text-black text-3xl  bg-transparent">
       <BlurText
         text="Explore Our Game Genres"
         delay={150}
@@ -41,7 +41,7 @@ const Swiper3D = () => {
 
         <SplitText
         text="Start your gaming journey today"
-        className="text-white text-lg mt-4"
+        className="text-black text-lg mt-4"
         delay={50}
         animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
         animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
